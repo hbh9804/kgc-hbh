@@ -6,7 +6,11 @@ public class Hello {
     private int age;
     private Long price;
     
-    public void getprice(){
+    public Long getprice(){
         return price;
+    }
+
+    public String getname(){
+        return name;
     }
 }
